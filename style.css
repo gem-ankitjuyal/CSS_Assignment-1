@@ -1,0 +1,131 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding: 6px 0;
+    background: lightsalmon;
+    position: sticky;
+    top: 0;
+}
+
+h3 {
+    text-align: center;
+}
+
+img {
+    width: 200px;
+}
+
+
+.form-container {
+    border: 1px solid blue;
+    width: 500px;
+    background: #C0DEFF;
+    padding:10px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+label {
+    display: inline-block;
+    width: 120px;
+}
+
+.addressfield * {
+    vertical-align: top;
+}
+
+.hobbiesfield {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.actionbtns {
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+}
+
+.actionbtns input {
+    border: none;
+    padding: 10px 30px;
+    background: #0081B4;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.demo-container {
+    position: relative;
+}
+
+.static {
+    position: static;
+    border: 1px solid red;
+}
+
+.relative {
+    position: relative;
+    left: 20px;
+    border: 1px solid blueviolet;
+}
+
+.absolute {
+    position: absolute;
+    bottom: -100px;
+    right: 0;
+    border: 1px solid black;
+}
+
+.float-container {
+    margin-bottom: 20px;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.display-none {
+    display: none;
+}
+
+.display-inline {
+    display: inline;
+    color: violet;
+}
+
+.display-block {
+    display: block;
+    color: teal;
+    border: 1px solid red;
+}
+
+.display-inlineblock {
+    display: inline-block;
+    color: brown;
+    width: 100px;
+
+}
+
+.visible {
+    visibility: visible;
+}
+
+.hidden {
+    visibility: hidden;
+}

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>CSS Assignment</h1>
+    <div class="form-container">
+        <h2>Student registration from</h2>
+        <form>
+            
+            <div>
+                <label>Name : </label>
+                <input type="text" placeholder="Name" required><br><br>
+            </div>
+
+            <div>
+                <label>Phone number : </label>
+                <input type="tel" placeholder="Phone Number" required><br><br>
+            </div>
+
+            <div>
+                <label>Date of Birth : </label>
+                <input type="date" placeholder="Date of Birth" required><br><br>
+            </div>
+
+            <div class="addressfield">
+                <label>Address: </label>
+                <textarea name="address" cols="30" rows="5"></textarea><br><br>
+            </div>
+
+            
+            <div>
+
+                <label>Gender : </label>
+                <input type="radio" name="gender" value="Male">
+                <label>Male</label>
+                <input type="radio" name="gender" value="Female">
+                <label>Female</label><br><br>
+            </div>
+
+            <div>
+
+                <label>City : </label>
+                <select>
+                    <option value="Select City">Select City</option>
+                    <option value="Spain">Spain</option>
+                    <option value="Switzerland">Switzerland</option>
+                    <option value="India">Spain</option>
+                    <option value="Norway">Norway</option>
+                </select><br><br>
+            </div>
+            <div class="hobbiesfield">
+                <label>Hobbies : </label><br><br>
+                <div class="hobbiesoption">
+                    <input type="checkbox" value="Playing games">
+                    <label> Playing games</label><br>
+                    <input type="checkbox"value="Painting">
+                    <label>Painting</label><br>
+                    <input type="checkbox" value="Reading books">
+                    <label>Reading books</label><br> 
+                    <input type="checkbox" value="Sketching">
+                    <label>Sketching</label><br><br>
+                </div>
+                
+            </div>
+            <div class="actionbtns">
+                <input type="submit" value="Submit" name="submit">
+                <input type="reset" value="Reset" name="reset">
+            </div>
+
+        </form>
+    </div>
+    <div class="position-container">
+
+        <h3>Demo demonstrating position property</h5>
+        <p class="static">This is a p element with position static </p>
+        <p class="relative">This is a p element with position relative</p>
+        <p class="absolute">This is a p element with position absolute</p>
+    </div>
+    <div class="display-container">
+        <h3>Demo demonstrating display property</h3>
+        <h4>display none (republic is missing)</h5>
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Happy<p class="display-none"> republic</p> day</div>
+        <h4>display inline</h5>
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Happy<p class="display-inline"> republic</p> day</div>
+        <h4>display block </h5>
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Happy<p class="display-block"> republic</p> day</div>
+        <h4>display block </h5>
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Happy<p class="display-block"> republic</p> day</div>
+        <h4>display inline-block (width and height is considered)</h5>
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Happy<p class="display-inlineblock">republic</p> day</div>
+    </div>
+    <div class="visibility-container">
+        <h2 class="visible">This is a heading and it is visible</h1>
+        <h2 class="hidden">This is a heading but it's not visible</h1>
+        <p>Here the heading is not visible</p>
+    </div>
+    <div class="float-container">
+        <h3>Demo demonstrating float property</h3>
+        <img class="float-left" src="dog2-image.jpg" alt="dog2-image">
+            
+        <img class="float-right" src="dog-image.jpg" alt="dog-image">
+        <p>Float left image</p>
+        <p class="float-right">float right image</p>
+    </div>
+    
+    
+    
+</body>
+</html>
